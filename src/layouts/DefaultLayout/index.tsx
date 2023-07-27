@@ -1,10 +1,11 @@
+import { Outlet } from 'react-router-dom'
 import { HeaderContainer, HeaderContent, ThemeModeButton } from './styles'
 
 import logoImg from '../../assets/SmarttBotlogo-horizontal-para-fundo-escuro@4x-200x52.webp'
 import { LayoutContext } from '../../contexts/LayoutContext'
 import { useContext } from 'react'
 
-export function Header() {
+export function DefaultLayout() {
   const { mode, setTheme } = useContext(LayoutContext)
 
   function handleChangeTheme() {
@@ -22,6 +23,7 @@ export function Header() {
           </ThemeModeButton>
         </HeaderContent>
       </HeaderContainer>
+      <Outlet />
     </div>
   )
 }

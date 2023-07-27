@@ -1,6 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { Analysis } from '../../components/Analysis'
-import { Header } from '../../components/Header'
 import { NewRobot } from '../../components/NewRobot'
 import { Summary } from '../../components/Summary'
 import { TableCard } from '../../components/TableCard'
@@ -12,7 +11,7 @@ import { Robot } from '../../@types/types'
 import { Loading } from '../../components/Loading'
 import { RobotsContextProvider } from '../../contexts/RobotsContext'
 
-export function Transactions() {
+export function Home() {
   const dispatch = useDispatch()
 
   const robots = useSelector((state: any) => state.robots)
@@ -23,7 +22,6 @@ export function Transactions() {
 
   return (
     <div>
-      <Header />
       <Analysis />
       <Summary />
       <RobotsContextProvider>
