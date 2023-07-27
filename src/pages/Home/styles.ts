@@ -17,7 +17,7 @@ export const TableContainer = styled.section`
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
 
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
 `
 

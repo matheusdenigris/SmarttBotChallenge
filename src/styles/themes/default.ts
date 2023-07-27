@@ -14,7 +14,7 @@ export const darkTheme = {
   'gray-300': '#888689',
   'gray-400': '#6A6C72',
   'gray-500': '#5F5D60',
-  'gray-700': '#343234',
+  'gray-700': '#E3E2E3',
   'gray-900': '#121214',
 
   'green-500': '#00B39D',

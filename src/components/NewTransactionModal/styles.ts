@@ -66,8 +66,8 @@ export const ErrorMessage = styled.div`
 `
 
 export const ActionButton = styled.button<ActtionButtonProps>`
-  width: 90px;
-  height: 29px;
+  width: 5.625rem;
+  height: 1.8125rem;
   border: 0;
   background: ${(props) =>
     props.typebutton === 'Submit'
@@ -125,6 +125,12 @@ export const StrategyTypeButton = styled(
   width: auto;
   height: 4.125rem;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    height: 3.5rem;
+    width: auto;
+  }
 
   background: ${(props) => props.theme.primaryFont};
   color: ${(props) => props.theme['gray-400']};

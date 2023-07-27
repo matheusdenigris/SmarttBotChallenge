@@ -137,7 +137,7 @@ export function TableCard(props: TableCardProps) {
         </DailyBalance>
         <DailyTrade>
           <span>Trades no dia</span>
-          <strong>{calculateTradeinDay(props.movimentations)??0}</strong>
+          <strong>{calculateTradeinDay(props.movimentations) ?? 0}</strong>
         </DailyTrade>
       </DailyBalanceContainer>
     </TableCardContainer>
