@@ -14,7 +14,7 @@ export const Content = styled(Dialog.Content)`
   min-width: 32rem;
   border-radius: 6px;
   padding: 2.5rem 3rem;
-  background: ${(props) => props.theme.primaryFont};
+  background: ${(props) => props.theme.white};
 
   position: fixed;
   top: 50%;
@@ -25,15 +25,15 @@ export const Content = styled(Dialog.Content)`
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 2rem; /* 200% */
-    color: ${(props) => props.theme['gray-700']};
+    line-height: 2rem;
+    color: ${(props) => props.theme['gray-900']};
   }
 
   span {
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.25rem; /* 166.667% */
+    line-height: 1.25rem;
     color: ${(props) => props.theme['gray-300']};
   }
 
@@ -74,7 +74,7 @@ export const ActionButton = styled.button<ActtionButtonProps>`
       ? props.theme['green-500']
       : props.theme['gray-300']};
   border-radius: 6px;
-  color: ${(props) => props.theme.primaryFont};
+  color: ${(props) => props.theme.white};
   font-weight: 500;
   font-size: 12px;
   cursor: pointer;
@@ -132,7 +132,7 @@ export const StrategyTypeButton = styled(
     width: auto;
   }
 
-  background: ${(props) => props.theme.primaryFont};
+  background: ${(props) => props.theme.white};
   color: ${(props) => props.theme['gray-400']};
 
   &:hover {
@@ -143,13 +143,13 @@ export const StrategyTypeButton = styled(
   &[data-state='unchecked']:hover {
     transition: background-color 0.2s;
     background: ${(props) => props.theme.orange};
-    color: ${(props) => props.theme.primaryFont};
+    color: ${(props) => props.theme.white};
   }
 
   &[data-state='checked'] {
     border: 1px solid ${(props) => props.theme.orange};
     background: ${(props) => props.theme.orange};
-    color: ${(props) => props.theme.primaryFont};
+    color: ${(props) => props.theme.white};
   }
 `
 
@@ -166,8 +166,8 @@ export const LabelInput = styled.p`
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.25rem; /* 166.667% */
-  color: ${(props) => props.theme['gray-700']};
+  line-height: 1.25rem;
+  color: ${(props) => props.theme['gray-900']};
 `
 export const InputContainer = styled.div`
   width: 100%;

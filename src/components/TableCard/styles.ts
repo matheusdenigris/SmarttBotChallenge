@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
 
 export const TableCardContainer = styled.div`
-  background: ${(props) => props.theme['secundary']};
+  background: ${(props) => props.theme.secundary};
   border-radius: 6px;
   padding: 1.5rem;
 `
@@ -132,7 +132,7 @@ export const TableResumeItemMoney = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem; /* 142.857% */
-    color: ${(props) => props.theme['green-500']}; 
+    color: ${(props) => props.theme['green-500']};
   }
 
   span {
@@ -171,7 +171,7 @@ export const DailyBalance = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: 1.25rem; /* 100% */
-    color: ${(props) => props.theme['green-500']}; 
+    color: ${(props) => props.theme['green-500']};
   }
 `
 
@@ -194,6 +194,6 @@ export const DailyTrade = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: 1.25rem; /* 100% */
-    color: ${(props) => props.theme['gray-500']}; 
+    color: ${(props) => props.theme['gray-500']};
   }
 `
