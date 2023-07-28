@@ -46,7 +46,7 @@ export const Content = styled(Dialog.Content)`
     input {
       border-radius: 6px;
       border: 1px solid ${(props) => props.theme['gray-300']};
-      color: ${(props) => props.theme['gray-700']};
+      color: ${(props) => props.theme['gray-900']};
       padding: 1rem;
 
       &::placeholder {
@@ -76,7 +76,7 @@ export const ActionButton = styled.button<ActtionButtonProps>`
   border-radius: 6px;
   color: ${(props) => props.theme.white};
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   cursor: pointer;
 
   &:hover {
