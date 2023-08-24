@@ -2,8 +2,6 @@
 
 # Sobre o projeto
 
-https://smartt-bot-challenge.vercel.app
-
 O projeto consiste em um site para visualização de dados de robôs que operam na bolsa de valores.
 
 O usuário é capaz de ver seus robôs em execução, resumo geral das operações e cadastrar novos robôs contendo o capital inical e estratégia de investimento.
@@ -12,7 +10,7 @@ O projeto foi construido utilizando React, os dados são dinâmicos consumidos d
 
 ## Layout web
 
-
+https://github.com/matheusdenigris/SmarttBotChallenge/assets/102500827/7f30484f-353a-4037-935f-8f3ce4b16e73
 
 # Tecnologias utilizadas
 
@@ -26,7 +24,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/matheusdenigris/Timer.git
+git clone https://github.com/matheusdenigris/SmarttBotChallenge.git
 
 # instalar dependências
 npm install
